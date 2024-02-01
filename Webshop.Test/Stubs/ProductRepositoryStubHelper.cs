@@ -6,7 +6,7 @@ namespace Webshop.Test.Stubs
 {
     public static class ProductRepositoryStubHelper
     {
-        public static Mock<IProductRepository> AddProducts(this Mock<IProductRepository> mock, int id, string name, decimal price)
+        public static Mock<IProductRepository> AddProduct(this Mock<IProductRepository> mock, int id, string name, decimal price)
         {
             mock.Setup(p => p.Get(id)).ReturnsAsync(new ProductViewModel
             {
