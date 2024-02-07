@@ -1,11 +1,11 @@
 # MatchWornShirt
 
 # Coding assessment: CheckoutAPI
-This is the MatchWornShirt's webshop CheckoutAPI. 
+This is the MatchWornShirt's webshop CheckoutAPI exercise. 
 
 This API is responsible for the folowing actions:
 1. Get a list of all products;
-2. Get 1 specific product;
+2. Get a specific product;
 3. Place a product in a shopping cart;
 4. Get the shopping cart summary and conditionally apply any discounts to the order total depending on the items in the cart.
 
@@ -22,11 +22,10 @@ MatchWornShirt offers 3 discount rules:
 
 IMPORTANT! More than 1 rule can apply to the cart.
 
-## Assessment details
+## Some technical details
 The solution includes the following:
-- In-memory data persistence.  (like **EF Core in-memory provider** or **Dapper**);
+- In-memory data persistence;
 - Async coding;
-- Separating Controller, Service and Repository layers;
 - Unit tests;
 - SwaggerUI documentation.
 
